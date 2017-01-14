@@ -26,8 +26,6 @@ def handle(text, mic, profile):
         mic.say("Sorry, Could you be more specific?.")
 
 
-
-
 def isValid(text):
 	return bool(re.search(r'\b(who|what|how|much|many|' +
                           r'old)\b', text, re.IGNORECASE))
